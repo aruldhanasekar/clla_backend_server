@@ -27,7 +27,7 @@ from credit_engine import calculate_credits_spent, deduct_credits
 
 
 # Backend URL for commitment API
-BACKEND_URL = os.getenv("BACKEND_URL", "https://jadishly-nontypographic-mammie.ngrok-free.dev")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://cllabackendserver-production.up.railway.app")
 
 
 @dataclass
